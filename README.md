@@ -1,20 +1,39 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/omessedaa/centris-photo-downloader/blob/main/centris-photo-downloader.ipynb)
-
 # Centris Photo Downloader (Google Colab)
 
-A Google Colab + Playwright notebook that captures listing images, removes duplicates, keeps only the best versions, and exports a clean ZIP.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/omessedaa/centris-photo-downloader/blob/main/centris-photo-downloader.ipynb)
+
+Download high-quality photos from a Centris listing using **Google Colab + Playwright**.
+The notebook captures listing images, removes duplicates (thumbs/icons), keeps only the best versions, and exports a clean ZIP.
+
+---
+
+## Screenshots (add yours here)
+
+> Create an `assets/` folder in the repo and upload your screenshots there.  
+> Then replace the image filenames below with yours.
+
+### Example output (ZIP + cleaned photos)
+![Example output](assets/sample-photos.png)
+
+### ZIP naming format
+![ZIP naming](assets/demo-zip.png)
+
+<!-- Optional -->
+<!-- ### Consent popup handled automatically
+![Consent popup](assets/consent-popup.png) -->
+
+---
 
 ## Features
-- Listing number or full URL input
-- Handles consent popup
-- Captures images via Playwright network responses
-- De-duplicates images (keeps largest version)
-- Keeps only “good” photos (size thresholds)
-- ZIP named: `listingNumber_address_downloadDateTime.zip`
-- Address fallback: `address_not_found`
+- Accepts a **listing number** or **full Centris URL**
+- Handles the consent popup
+- Captures images via Playwright network responses (fast + reliable)
+- De-duplicates images using perceptual hashing (keeps the largest/best version)
+- Keeps only “good” photos (size thresholds to avoid icons/thumbnails)
+- Exports a ZIP named:
+  - `listingNumber_address_downloadDateTime.zip`
+  - If address can’t be detected: `listingNumber_address_not_found_downloadDateTime.zip`
 
-## Disclaimer
-For personal/educational use. Please respect Centris’ terms of use. Not affiliated with Centris.
+---
 
-## License
-MIT
+## Q
