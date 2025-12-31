@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/omessedaa/centris-photo-downloader/blob/main/Centris%20Photo%20Downloader.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/omessedaa/centris-photo-downloader/blob/main/centris-photo-downloader.ipynb)
 
 # Centris Photo Downloader (Google Colab)
 
