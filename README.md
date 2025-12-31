@@ -7,7 +7,7 @@ The notebook captures listing images, removes duplicates (thumbs/icons), keeps o
 
 ---
 
-## Screenshots (add yours here)
+## Screenshots
 
 ### Example output (ZIP + cleaned photos)
 ![Example output](assets/sample-photos.png)
