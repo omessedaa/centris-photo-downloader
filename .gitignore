@@ -1,0 +1,14 @@
+# Colab / notebooks
+.ipynb_checkpoints/
+
+# Outputs
+centris_*/
+*.zip
+
+# Python caches
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
