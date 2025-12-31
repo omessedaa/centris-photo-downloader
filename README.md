@@ -9,9 +9,6 @@ The notebook captures listing images, removes duplicates (thumbs/icons), keeps o
 
 ## Screenshots (add yours here)
 
-> Create an `assets/` folder in the repo and upload your screenshots there.  
-> Then replace the image filenames below with yours.
-
 ### Example output (ZIP + cleaned photos)
 ![Example output](assets/sample-photos.png)
 
