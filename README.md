@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/omessedaa/centris-photo-downloader/blob/main/Centris%20Photo%20Downloader.ipynb)
+
 # Centris Photo Downloader (Google Colab)
 
 A Google Colab + Playwright notebook that captures listing images, removes duplicates, keeps only the best versions, and exports a clean ZIP.
